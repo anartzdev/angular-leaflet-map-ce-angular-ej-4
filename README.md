@@ -22,7 +22,7 @@ Ahora debemos usar esta base y con ello, haremos posteriormente todas las amplic
 
 ```typescript
 import { Component } from '@angular/core';
-import { LatLngBounds, rectangle, Map } from 'leaflet';
+// import { // Aquí lo elementos de Leaflet que queramos usar } from 'leaflet';
 
 @Component({
   selector: 'app-default-layer',
