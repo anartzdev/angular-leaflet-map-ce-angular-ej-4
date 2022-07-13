@@ -1,0 +1,11 @@
+/* Add application styles & imports to this file! */
+@import url('./../node_modules/@mugan86/ng-leaflet/assets/styles/common.css');
+.leaflet-popup-content img,
+.leaflet-tooltip-pane img {
+  width: 100%;
+}
+
+.leaflet-control-layers-base,
+.leaflet-control-layers-overlays {
+  text-align: left;
+}
